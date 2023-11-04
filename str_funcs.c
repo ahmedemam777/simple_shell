@@ -1,5 +1,4 @@
 #include "header.h"
-
 /**
 * str_dup - duplicates string
 * @s: to be duplicated
@@ -25,13 +24,12 @@ char *str_dup(char *s)
 	ptr[i++] = '\0';
 	return (ptr);
 }
-
 /**
 * _strchr - locates a character in a string
 * @s: string to be checked
 * @c: character to be located
 *
-* Return: returns pointer to first occurence of character
+* Return: returns pointer to first occurrence of character
 * or NULL if character not found
 */
 char *str_chr(char *s, char c)
@@ -64,7 +62,6 @@ int str_cmp(char *s1, char *s2)
 
 	return (output);
 }
-
 /**
 * str_len - returns the length of a string
 * @s: string passed
@@ -82,7 +79,6 @@ int str_len(char *s)
 	}
 	return (count);
 }
-
 /**
 * strn_cmp - compares two strings up to n bytes
 * @s1: compared to s2
