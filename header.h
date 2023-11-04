@@ -14,4 +14,8 @@
 #include <signal.h>
 
 /*STRING FUNCS*/
-
+char *str_dup(char *s);
+char *str_chr(char *s, char c);
+int str_cmp(char *s1, char *s2);
+int str_len(char *s);
+int strn_cmp(char *s1, char *s2, int n);
