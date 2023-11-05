@@ -19,3 +19,15 @@ char *str_chr(char *s, char c);
 int str_cmp(char *s1, char *s2);
 int str_len(char *s);
 int strn_cmp(char *s1, char *s2, int n);
+/*other prototypes*/
+void prompt_show(void);
+
+/*STRUCTS*/
+/**
+ * struct fgs - struct that handling flags
+ * @interactive: check if interactive
+*/
+typedef struct fgs
+{
+	bool interactive;
+} fgs;
