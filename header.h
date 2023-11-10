@@ -21,7 +21,11 @@ int str_len(char *s);
 int strn_cmp(char *s1, char *s2, int n);
 /*other prototypes*/
 void prompt_show(void);
+char *read_ln(void);
+char **tk_nizer(char *line);
+void signal_handling(int x);
 
+extern __sighandler_t sign(int __sig, __sighandler_t __handler);
 /*STRUCTS*/
 /**
  * struct fgs - struct that handling flags
@@ -31,3 +35,4 @@ typedef struct fgs
 {
 	bool interactive;
 } fgs;
+#endif
