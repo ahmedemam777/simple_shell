@@ -26,6 +26,7 @@ char **tk_nizer(char *line);
 void signal_handling(int x);
 
 extern __sighandler_t sign(int __sig, __sighandler_t __handler);
+extern char **environ;
 /*STRUCTS*/
 /**
  * struct fgs - struct that handling flags
